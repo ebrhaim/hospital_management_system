@@ -1,0 +1,4 @@
+- The corresponding room will be marked as unoccupied.
+- doctor_assigned_cases will be decremented.
+- Urgency_level services will be calculated to increment times_per_month in the services table based on the number of days.
+- The patient_services table will automatically delete the corresponding patient ID via an ON DELETE CASCADE action.
